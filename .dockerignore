@@ -1,0 +1,9 @@
+# Reduce Docker build context
+.git
+.idea
+.DS_Store
+public
+.zola-cache
+target
+node_modules
+dist
