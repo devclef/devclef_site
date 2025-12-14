@@ -7,6 +7,24 @@ taxonomies = [
   { name = "tags" },
   { name = "categories" }
 ]
+theme = "terminus"
 
 [extra]
 author = "DevClef"
+
+main_menu = [
+  { name = "code", url = "code", trailing_slash = true },
+  { name = "operations", url = "operations", trailing_slash = true },
+  { name = "reef-tank", url = "reef-tank", trailing_slash = true },
+  { name = "tuba", url = "tuba", trailing_slash = true },
+  { name = "github", url = "https://github.com/devclef/", new_tab = true },
+]
+
+socials = [
+  { name = "github", url = "https://github.com/devclef" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/devclef" },
+]
+
+[extra.responsive_images]
+widths = [640, 784, 1280, 1920, 2560]
+fallback_width = 1280
