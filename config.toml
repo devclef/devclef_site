@@ -1,4 +1,4 @@
-base_url = "http://localhost" # Change to your production URL (e.g., https://devclef.example.com)
+base_url = "https://devclef.com" # Change to your production URL (e.g., https://devclef.example.com)
 title = "DevClef"
 description = "DevClef — Static site powered by Zola"
 compile_sass = false
